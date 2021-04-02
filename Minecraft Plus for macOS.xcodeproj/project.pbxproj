@@ -12,7 +12,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4A0341A32616CA9A00F86B42 /* Minecraft Plus for macOS.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Minecraft Plus for macOS.saver"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A0341A32616CA9A00F86B42 /* Minecraft Plus.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Minecraft Plus.saver"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A0341A62616CA9A00F86B42 /* Minecraft_Plus_for_macOSView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Minecraft_Plus_for_macOSView.h; sourceTree = "<group>"; };
 		4A0341A82616CA9A00F86B42 /* Minecraft_Plus_for_macOSView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Minecraft_Plus_for_macOSView.m; sourceTree = "<group>"; };
 		4A0341AA2616CA9A00F86B42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		4A0341A42616CA9A00F86B42 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4A0341A32616CA9A00F86B42 /* Minecraft Plus for macOS.saver */,
+				4A0341A32616CA9A00F86B42 /* Minecraft Plus.saver */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,7 +84,7 @@
 			);
 			name = "Minecraft Plus for macOS";
 			productName = "Minecraft Plus for macOS";
-			productReference = 4A0341A32616CA9A00F86B42 /* Minecraft Plus for macOS.saver */;
+			productReference = 4A0341A32616CA9A00F86B42 /* Minecraft Plus.saver */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -256,11 +256,12 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 9G475R3MEF;
+				DEVELOPMENT_TEAM = 9DDM72ZZ79;
 				INFOPLIST_FILE = "Minecraft Plus for macOS/Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.anli.Minecraft-Plus-for-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Minecraft Plus";
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Debug;
@@ -270,11 +271,12 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 9G475R3MEF;
+				DEVELOPMENT_TEAM = 9DDM72ZZ79;
 				INFOPLIST_FILE = "Minecraft Plus for macOS/Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.anli.Minecraft-Plus-for-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Minecraft Plus";
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Release;

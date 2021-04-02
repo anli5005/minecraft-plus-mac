@@ -6,7 +6,8 @@
 //
 
 #import <ScreenSaver/ScreenSaver.h>
+#import <WebKit/WebKit.h>
 
-@interface Minecraft_Plus_for_macOSView : ScreenSaverView
+@interface Minecraft_Plus_for_macOSView : ScreenSaverView <WKNavigationDelegate>
 
 @end
